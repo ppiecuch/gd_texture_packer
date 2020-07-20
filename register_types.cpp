@@ -35,7 +35,7 @@ SOFTWARE.
 #include "texture_resource/editor_plugin_packer_image_resource.h"
 #endif
 
-void register_texture_packer_types() {
+void register_gd_texture_packer_types() {
 	ClassDB::register_class<TexturePacker>();
 	ClassDB::register_class<TextureMerger>();
 
@@ -48,5 +48,5 @@ void register_texture_packer_types() {
 #endif
 }
 
-void unregister_texture_packer_types() {
+void unregister_gd_texture_packer_types() {
 }
